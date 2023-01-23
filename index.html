@@ -7,16 +7,27 @@
 <body>
 
   <h1>QR Code for BookSource</h1>
-  <div class="黑貓小說"></div><br>
-  <div class="小說王子"></div><br>
-  <div class="讀創故事"></div><br>
-  <div class="天天看小說"></div><br>
-  <div class="輕小說文庫"></div><br>
+  <div onclick="printDiv(this.className)" class="黑貓小說"></div><br>
+  <div onclick="printDiv(this.className)" class="小說王子"></div><br>
+  <div onclick="printDiv(this.className)" class="讀創故事"></div><br>
+  <div onclick="printDiv(this.className)" class="天天看小說"></div><br>
+  <div onclick="printDiv(this.className)" class="輕小說文庫"></div><br>
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 <script src="dist/jquery-qrcode.js"></script>
 
 <script>
+  function printDiv(clicked_className) {
+    var divContents = document.getElementsByClassName(clicked_className)[0].innerHTML;
+    var a = window.open('', '_blank');
+    a.document.write('<html>');
+    a.document.write('<head><meta charset="utf-8"><title>' + clicked_className + '</title></head>');
+    a.document.write('<body > <h1>' + clicked_className + '</h1>');
+    a.document.write(divContents);
+    a.document.write('</body></html>');
+    a.document.close();
+  }
+
   $(".黑貓小說").qrcode({
     label: '黑貓小說',
 	text: 'https://book.dn2ip.com/BookSource_黑貓小說.json',
