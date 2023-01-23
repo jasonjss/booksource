@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "讀創故事",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://story.udn.com/",
+        "customOrder": 9,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[\n{\"title\":\"┏━━━━━   讀小說   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"免費\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=2&amount_per_page=10&page={{page}}&category=&platform=1&searchstringtype=1\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"完結\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=3&amount_per_page=10&page={{page}}&category=&platform=1&searchstringtype=1\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"✿          女生頻道          ✿\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都會愛情\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=1&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"宮廷穿越\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=2&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"輕小說\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=3&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙俠奇幻\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=5&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"懸疑驚悚\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=6&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"創作文學\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=7&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"✿          男生頻道          ✿\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻修真\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=8&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"異世科幻\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=9&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"正宗武俠\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=10&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"競技同人\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=11&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"現代冒險\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=12&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"歷史軍事\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=13&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"末日懸疑\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=1&type=5&amount_per_page=10&page={{page}}&category=14&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"----\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"----\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}, \n{\"title\":\"┏━━━━━   原創   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"免費\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=2&type=2&amount_per_page=10&page={{page}}&category=&platform=1&searchstringtype=1\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"完結\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=2&type=3&amount_per_page=10&page={{page}}&category=&platform=1&searchstringtype=1\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"愛情言情\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=2&type=5&amount_per_page=10&page={{page}}&category=17&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"靈異推理\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=2&type=5&amount_per_page=10&page={{page}}&category=18&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻武俠\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=2&type=5&amount_per_page=10&page={{page}}&category=19&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都會寫實\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=2&type=5&amount_per_page=10&page={{page}}&category=20&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"人文生活\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=2&type=5&amount_per_page=10&page={{page}}&category=69&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"----\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}, \n{\"title\":\"┏━━━━━   言情   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"言情小說\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=5&type=5&amount_per_page=10&page={{page}}&category=195&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"成人言情\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=5&type=5&amount_per_page=10&page={{page}}&category=196&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"愛情故事\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=5&type=5&amount_per_page=10&page={{page}}&category=197&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   靈異   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"靈異奇幻\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=6&type=5&amount_per_page=10&page={{page}}&category=204&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"輕小說\",\"url\":\"/dcstore/ShowStoreProductList?contenttype=6&type=5&amount_per_page=10&page={{page}}&category=205&platform=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]",
+        "header": "",
+        "lastUpdateTime": 1672478966095,
+        "respondTime": 5632,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "coverUrl": "$.imgcover",
+            "intro": "$.summary",
+            "kind": "$.main.category",
+            "name": "$.title",
+            "tocUrl": "$.id\n@js: id=result; java.put('id',id);\n'/dcstore/ShowStoreProductChapter?order_by=chapter&account=&amount_per_page=&page=&id='+id",
+            "wordCount": "$.words"
+        },
+        "ruleContent": {
+            "content": "$.content"
+        },
+        "ruleExplore": {},
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.list[*]",
+            "bookUrl": "$.id\n@js:\nid=result;\n'/dcstore/ShowStoreProduct?id='+id",
+            "coverUrl": "$.imgcover",
+            "intro": "$.summary",
+            "kind": "$.main.category",
+            "name": "$.title",
+            "wordCount": "$.words"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\r\nlet id=java.get('id');\r\nlet data = JSON.parse(result);\r\nlet chapterList = [];\r\n\r\ndata['list'].forEach(\r\n    list => {\r\n        let url = `https://story.udn.com/dcstore/ShowStoreProductChapterContent?id=${id}&chapter_id=${list.chapter_id}`;\r\n        let isfree = (list.isfree==\"Y\" ? \"\":\"💰\");\r\n        chapterList.push(\r\n        {\r\n            title: String(isfree+list.title),\r\n            url: String(url)\r\n        });\r\n    });\r\n\r\nchapterList",
+            "chapterName": "title",
+            "chapterUrl": "url",
+            "isPay": "",
+            "isVip": "",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "/dcstore/ShowStoreProductList?searchstring={{key}}&amount_per_page=50&page={{page}}&platform=1&searchstringtype=1",
+        "weight": 0
+    }
+]

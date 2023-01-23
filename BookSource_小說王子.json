@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "小說王子",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.bookmake.cc/",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[\n{\"title\":\"┏━━━━━   最新   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"新書\",\"url\":\"https://bookmake.cc/new/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.15,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/finished/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.10,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   熱門   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/all/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.15,\"layout_flexGrow\":1}},\n{\"title\":\"月\",\"url\":\"https://bookmake.cc/c/all/month/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.10,\"layout_flexGrow\":1}},\n{\"title\":\"周\",\"url\":\"https://bookmake.cc/c/all/week/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.10,\"layout_flexGrow\":1}},\n{\"title\":\"日\",\"url\":\"https://bookmake.cc/c/all/day/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.10,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   完本小說   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/finish/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.15,\"layout_flexGrow\":1}},\n{\"title\":\"月\",\"url\":\"https://bookmake.cc/c/finish/month/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.10,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   武俠修仙   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/xianxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/xianxia/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/xianxia/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   軍事曆史   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/lishi/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/lishi/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   都市青春   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/youth/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/youth/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/youth/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   網遊競技   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/wangyou/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/wangyou/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/wangyou/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   言情小說   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/yanqing/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/yanqing/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/yanqing/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   娛樂圈   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/entertainment/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/entertainment/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/entertainment/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   文學小說   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/classicbook/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/classicbook/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/classicbook/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   玄幻奇幻   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/xuanhuan/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/xuanhuan/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   靈異玄幻   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/lingyi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/lingyi/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/lingyi/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   二次元   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/acg/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/acg/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/acg/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   西洋文學   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/westernbook/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/westernbook/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/westernbook/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"┏━━━━━   推理小說   ━━━━━┓\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"https://bookmake.cc/c/suspense/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"總排行\",\"url\":\"https://bookmake.cc/c/suspense/total/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"https://bookmake.cc/c/suspense/finish/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]",
+        "header": "",
+        "lastUpdateTime": 1673167131142,
+        "loginCheckJs": "",
+        "respondTime": 5632,
+        "ruleBookInfo": {
+            "author": "$.data.novel.author",
+            "coverUrl": "$.data.novel.thumbnail",
+            "intro": "$.data.novel.description",
+            "kind": "",
+            "name": "$.data.novel.title",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "$.data.content||$",
+            "replaceRegex": "##{error=404}##━━━━━━━━━━"
+        },
+        "ruleExplore": {
+            "author": "div.novel-item-author@a@text",
+            "bookList": "li.novel-item",
+            "bookUrl": "div.novel-item-title@a@href##//bookmake.cc/n/(.*)##https://api.bookmake.cc/novel/detail?&device=android&version=1.1.3&novelId=$1###",
+            "coverUrl": "div.novel-item-thumbnail@img@src",
+            "intro": "div.novel-item-description@text",
+            "kind": "div.novel-item-state@text",
+            "lastChapter": "",
+            "name": "div.novel-item-title@a@text"
+        },
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data.items[*]",
+            "bookUrl": "$.novelId##(.*)##/novel/detail?&device=android&version=1.1.3&novelId=$1###",
+            "coverUrl": "$.thumbnail",
+            "intro": "$.description",
+            "kind": "$.isFinished\n@js:\nisFinished=result;\nif (isFinished == '[true]') {\n    '已完結'\n} else {\n    ''\n}",
+            "lastChapter": "$.newestChapter.chapterName",
+            "name": "$.title",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "@js:\nlet data = JSON.parse(result);\nlet novelvolumes = data['data']['novel']['volumes'];\nlet volumes = data['data']['volumes'];\nlet chapterList = [];\nlet index = 0;\n\nnovelvolumes.forEach(\n    list => {\n        if (volumes[index] != null) {\n            let chapurl = `/chapter/${index}`;\n            chapterList.push(\n            {\n                title: String('════  '+list.name+'  ════'),\n                url: String(chapurl)\n            });\n\n            volumes[index].forEach(\n                item => {\n                    let url = `/chapter/detail?novelId=${item.novelId}&chapterId=${item.chapterId}&device=android&version=1.1.3`;\n                    chapterList.push(\n                    {\n                        title: String(item.chapterName),\n                        url: String(url)\n                    });\n                });\n        }\n\n        index++;\n    });\n\nchapterList",
+            "chapterName": "title",
+            "chapterUrl": "url",
+            "isPay": "",
+            "isVip": "",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "/novel/search?search={{key}}&category=default&sort=default&status=default&page={{page}}&device=android&version=1.1.3",
+        "weight": 0
+    }
+]

@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>QR Code for BookSource</title>
+</head>
+
+<body>
+
+  <h1>QR Code for BookSource</h1>
+  <div class="黑貓小說"></div><br>
+  <div class="小說王子"></div><br>
+  <div class="讀創故事"></div><br>
+  <div class="天天看小說"></div><br>
+  <div class="輕小說文庫"></div><br>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="dist/jquery-qrcode.js"></script>
+
+<script>
+  $(".黑貓小說").qrcode({
+    label: '黑貓小說',
+	text: 'https://book.dn2ip.com/BookSource_黑貓小說.json',
+	ecLevel:'H',
+	mode: 2,
+    render:'image',
+	size: 370,
+	quiet: 2,
+    fill: '#000',
+    fontcolor: '#00FFFF',
+	background:'#FFFFFF',
+	mSize: 0.13,
+	mPosX: 0.5,
+    mPosY: 0.5
+  });
+
+  $(".小說王子").qrcode({
+    label: '小說王子',
+	text: 'https://book.dn2ip.com/BookSource_小說王子.json',
+	ecLevel:'H',
+	mode: 2,
+    render:'image',
+	size: 370,
+	quiet: 2,
+    fill: '#000',
+    fontcolor: '#00FFFF',
+	background:'#FFFFFF',
+	mSize: 0.13,
+	mPosX: 0.5,
+    mPosY: 0.5
+  });
+
+  $(".讀創故事").qrcode({
+    label: '讀創故事',
+	text: 'https://book.dn2ip.com/BookSource_讀創故事.json',
+	ecLevel:'H',
+	mode: 2,
+    render:'image',
+	size: 370,
+	quiet: 2,
+    fill: '#000',
+    fontcolor: '#00FFFF',
+	background:'#FFFFFF',
+	mSize: 0.13,
+	mPosX: 0.5,
+    mPosY: 0.5
+  });
+
+  $(".天天看小說").qrcode({
+    label: '天天看小說',
+	text: 'https://book.dn2ip.com/BookSource_天天看小說.json',
+	ecLevel:'H',
+	mode: 2,
+    render:'image',
+	size: 370,
+	quiet: 2,
+    fill: '#000',
+    fontcolor: '#00FFFF',
+	background:'#FFFFFF',
+	mSize: 0.13,
+	mPosX: 0.5,
+    mPosY: 0.5
+  });
+
+  $(".輕小說文庫").qrcode({
+    label: '輕小說文庫',
+	text: 'https://book.dn2ip.com/BookSource_輕小說文庫.json',
+	ecLevel:'H',
+	mode: 2,
+    render:'image',
+	size: 370,
+	quiet: 2,
+    fill: '#000',
+    fontcolor: '#00FFFF',
+	background:'#FFFFFF',
+	mSize: 0.13,
+	mPosX: 0.5,
+    mPosY: 0.5
+  });
+</script>
+
+</body>
+</html>

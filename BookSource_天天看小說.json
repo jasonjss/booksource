@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "天天看小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://hk.ttkan.co",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[\n{\"title\":\"連載\",\"url\":\"/api/nq/amp_novel_list?type=lianzai&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.35,\"layout_flexGrow\":1}},\n{\"title\":\"隨選\",\"url\":\"/api/nq/amp_novel_list?type=suixuan&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.35,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/api/nq/amp_novel_list?type=xuanhuan&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/api/nq/amp_novel_list?type=dushi&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙俠\",\"url\":\"/api/nq/amp_novel_list?type=xianxia&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/api/nq/amp_novel_list?type=gudaiyanqing&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/api/nq/amp_novel_list?type=chuanyuechongsheng&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"遊戲\",\"url\":\"/api/nq/amp_novel_list?type=youxi&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/api/nq/amp_novel_list?type=kehuan&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"懸疑\",\"url\":\"/api/nq/amp_novel_list?type=xuanyi&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"靈異\",\"url\":\"/api/nq/amp_novel_list?type=lingyi&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"歷史\",\"url\":\"/api/nq/amp_novel_list?type=lishi&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春\",\"url\":\"/api/nq/amp_novel_list?type=qingchun&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"軍事\",\"url\":\"/api/nq/amp_novel_list?type=junshi&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"競技\",\"url\":\"/api/nq/amp_novel_list?type=jingji&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"現言\",\"url\":\"/api/nq/amp_novel_list?type=yanqing&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其它\",\"url\":\"/api/nq/amp_novel_list?type=qita&filter=*&page={{page}}&limit=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]",
+        "lastUpdateTime": 1672630317660,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[name=\"og:novel:author\"]@content",
+            "coverUrl": "[name=\"og:image\"]@content",
+            "intro": ".description@html",
+            "kind": "[name~=status|category|update_time]@content##.\\d{3}Z",
+            "lastChapter": "[name=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[name=\"og:novel:book_name\"]@content",
+            "tocUrl": "<js>\nid = baseUrl.match(/[/]chapters[/](\\S+)/)[1];\njava.put(\"ID\",id);\nurl = book.origin+\"/api/nq/amp_novel_chapters?language=cn&novel_id=\"+id+\"&__amp_source_origin=\"+book.origin;\n</js>"
+        },
+        "ruleContent": {
+            "content": "p@html"
+        },
+        "ruleSearch": {
+            "author": "li.1@text",
+            "bookList": ".pure-u-1-1",
+            "bookUrl": "a.0@href",
+            "coverUrl": "amp-img@src",
+            "intro": "li.2@text##简介：",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "$.items",
+            "chapterName": "$.chapter_name",
+            "chapterUrl": "$.chapter_id\n<js>\nid = java.get(\"ID\");\n\"/novel/pagea/\"+id+\"_\"+result+\".html\"\n</js>"
+        },
+        "searchUrl": "/novel/search?q={{key}}",
+        "weight": 0,
+        "ruleExplore": {
+            "bookList": "items[*]",
+            "name": "$.name",
+            "author": "$.author",
+            "intro": "$.description",
+            "coverUrl": "$.topic_img##(.*)##\nhttps://static.ttkan.co/cover/$1###",
+            "bookUrl": "$.novel_id##(.*)##/novel/chapters/$1###",
+            "kind": ""
+        }
+    }
+]
